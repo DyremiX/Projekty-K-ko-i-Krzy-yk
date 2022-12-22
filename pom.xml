@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<distributionManagement>
+		<snapshotRepository>
+		  <id>repo-id</id>
+		  <name>my snapshot repository</name>
+		  <url>file:C:\Users\GIGABYTE\Desktop\Java laby\Projekt tictactoe\Tic-tac-toe\Snapshot_repo</url>
+		</snapshotRepository>
+		<repository>
+		  <id>repo-id2</id>
+		  <name>my repository</name>
+		  <url>file:C:\Users\GIGABYTE\Desktop\Java laby\Projekt tictactoe\Tic-tac-toe</url>
+		</repository>
+	  </distributionManagement>
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>

@@ -25,7 +25,7 @@ public class JsonHelp {
         return isCross;
     }
 
-    public JsonHelp(@JsonProperty("GameId") UUID gameId, @JsonProperty("UserId") UUID userId, @JsonProperty("isCross") String isCross, @JsonProperty("isCross") int CordinatesNr) {
+    public JsonHelp(@JsonProperty("GameId") UUID gameId, @JsonProperty("UserId") UUID userId, @JsonProperty("isCross") String isCross, @JsonProperty("CordinatesNr") int CordinatesNr) {
         GameId = gameId;
         UserId = userId;
         this.isCross = Boolean.parseBoolean(isCross);
