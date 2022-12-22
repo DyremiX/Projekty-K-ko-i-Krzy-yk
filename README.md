@@ -20,5 +20,7 @@ Windows(CMD): 'mvnw spring-boot:run'
 }
 
 startGame - zwraca przesłaną zmienną isCross
+
 joinGame -  zwraca przesłaną zmienną GameID
+
 getMove -  zwraca przesłaną zmienną GameID i UserID
