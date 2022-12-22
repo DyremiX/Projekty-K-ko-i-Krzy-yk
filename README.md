@@ -2,7 +2,9 @@
 Projekt studencki do stworzenia arkadowej gry online kółko i krzyżyk
 
 Do odpalenia tego projektu potrzeba mavena w wersji 3.0.0+. Po pobraniu folderu, wykonujecie:
+
 Linux: './mvnw spring-boot:run'
+
 Windows(CMD): 'mvnw spring-boot:run'
 
  Aplikacja odpala się na porcie 8080
